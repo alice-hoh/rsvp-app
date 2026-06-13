@@ -1,0 +1,41 @@
+# Build outputs
+/build
+*/build
+
+# Gradle
+.gradle
+**/.gradle/
+
+# Local configuration
+/local.properties
+
+# Android Studio
+/.idea/
+*.iml
+
+# BUT keep only essential idea files ignored individually (optional if you prefer strict control)
+#.idea/caches
+#.idea/libraries
+#.idea/modules.xml
+#.idea/workspace.xml
+
+# Navigation editor / Android Studio auto files
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Kotlin / compiler
+*.class
+
+# Captures
+/captures
+
+# External native builds (NDK)
+.externalNativeBuild
+.cxx
+
+# Logs
+*.log
